@@ -1,101 +1,664 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.3">
-  <style type="text/css">
-    body {background-color: #f5f3ef}
-    p.p1 {margin: 0.0px 0.0px 36.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #b1543a; -webkit-text-stroke: #b1543a}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 26.4px 'Helvetica Neue'; color: #b6882d; -webkit-text-stroke: #b6882d}
-    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.2px 'Helvetica Neue'; color: #675d4d; -webkit-text-stroke: #675d4d}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #8e876d; -webkit-text-stroke: #8e876d}
-    p.p6 {margin: 0.0px 0.0px 24.0px 0.0px; font: 24.0px 'Helvetica Neue'; color: #266b66; -webkit-text-stroke: #266b66}
-    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.6px 'Helvetica Neue'; color: #675d4d; -webkit-text-stroke: #675d4d}
-    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 8.6px 'Helvetica Neue'; color: #f5f3ef; -webkit-text-stroke: #f5f3ef; background-color: #266b66}
-    p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.6px 'Helvetica Neue'; color: #b6882d; -webkit-text-stroke: #b6882d}
-    p.p11 {margin: 0.0px 0.0px 14.4px 0.0px; font: 12.6px 'Helvetica Neue'; color: #a9a18f; -webkit-text-stroke: #a9a18f}
-    p.p12 {margin: 0.0px 0.0px 0.0px 0.0px; font: 8.2px 'Helvetica Neue'; color: #b1543a; -webkit-text-stroke: #b1543a}
-    p.p14 {margin: 0.0px 0.0px 0.0px 0.0px; font: 42.0px 'Helvetica Neue'; color: #e8e5dd; -webkit-text-stroke: #e8e5dd}
-    p.p16 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.8px 'Helvetica Neue'; color: #675d4d; -webkit-text-stroke: #675d4d}
-    p.p19 {margin: 0.0px 0.0px 12.0px 0.0px; font: 11.4px 'Helvetica Neue'; color: #266b66; -webkit-text-stroke: #266b66}
-    p.p21 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.4px 'Helvetica Neue'; color: #212f3f; -webkit-text-stroke: #212f3f; background-color: #e8e5dd}
-    p.p22 {margin: 0.0px 0.0px 14.4px 0.0px; font: 10.8px 'Helvetica Neue'; color: #90bda9; -webkit-text-stroke: #90bda9}
-    p.p23 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.8px 'Helvetica Neue'; color: #60d08f; -webkit-text-stroke: #60d08f}
-    p.p24 {margin: 0.0px 0.0px 0.0px 0.0px; font: 9.6px 'Helvetica Neue'; color: #266b66; -webkit-text-stroke: #266b66; background-color: #f5f3ef}
-    p.p25 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.2px 'Helvetica Neue'; color: #212f3f; -webkit-text-stroke: #212f3f}
-    p.p26 {margin: 0.0px 0.0px 0.0px 0.0px; font: 7.8px 'Helvetica Neue'; color: #675d4d; -webkit-text-stroke: #675d4d}
-    li.li20 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #675d4d; -webkit-text-stroke: #675d4d}
-    span.s1 {font-kerning: none; background-color: #212f3f}
-    span.s2 {font-kerning: none; color: #b6882d; background-color: #212f3f; -webkit-text-stroke: 0px #b6882d}
-    span.s3 {font-kerning: none; background-color: #e8e5dd}
-    span.s4 {font-kerning: none}
-    span.s5 {font-kerning: none; color: #f5f3ef; background-color: #212f3f; -webkit-text-stroke: 0px #f5f3ef}
-    span.s6 {font-kerning: none; color: #266b66; background-color: #e8e5dd; -webkit-text-stroke: 0px #266b66}
-    span.s7 {font-kerning: none; color: #212f3f; -webkit-text-stroke: 0px #212f3f}
-    span.s8 {-webkit-text-stroke: 0px #000000}
-    span.s9 {font: 12.0px 'Helvetica Neue'; font-kerning: none; color: #212f3f; -webkit-text-stroke: 0px #212f3f}
-    span.s10 {font-kerning: none; background-color: #266b66}
-    span.s11 {font: 13.8px 'Helvetica Neue'; text-decoration: underline ; font-kerning: none; color: #60d08f; -webkit-text-stroke: 0px #60d08f}
-    span.s12 {font: 9.6px 'Helvetica Neue'; font-kerning: none}
-    ul.ul1 {list-style-type: disc}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LEAP Lab — Learning, Education & AI Psychology</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #2c3e50;
+      --paper: #f7f5f2;
+      --cream: #edeae4;
+      --accent: #c0694a;
+      --teal: #2e7d79;
+      --gold: #c4993a;
+      --mid: #7a7060;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      line-height: 1.75;
+      overflow-x: hidden;
+    }
+
+    /* ── NOISE TEXTURE ── */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 999;
+      opacity: 0.6;
+    }
+
+    /* ── HEADER ── */
+    header {
+      display: grid;
+      grid-template-columns: 30fr 70fr;
+      min-height: 100vh;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .header-left {
+      background: var(--ink);
+      color: var(--paper);
+      padding: 6rem 4rem 4rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+    }
+
+    .header-left::after {
+      content: '';
+      position: absolute;
+      top: 0; right: -1px; bottom: 0;
+      width: 2px;
+      background: var(--accent);
+    }
+
+    .lab-monogram {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(6rem, 14vw, 11rem);
+      font-weight: 700;
+      line-height: 0.85;
+      letter-spacing: -0.03em;
+      color: var(--paper);
+      opacity: 0.12;
+      position: absolute;
+      bottom: 3rem;
+      left: 2rem;
+      user-select: none;
+    }
+
+    .lab-tag {
+      font-family: 'DM Mono', monospace;
+      font-size: 1rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 3rem;
+      line-height: 1.8;
+    }
+
+    .lab-name {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.4rem, 5vw, 3.6rem);
+      font-weight: 700;
+      line-height: 1.15;
+      color: var(--paper);
+      position: relative;
+      z-index: 1;
+    }
+
+    .lab-name em {
+      font-style: italic;
+      color: var(--gold);
+    }
+
+    .lab-acronym {
+      margin-top: 2rem;
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 0.45rem;
+    }
+
+    .acronym-row {
+      display: flex;
+      align-items: baseline;
+      gap: 1rem;
+    }
+
+    .acronym-letter {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: var(--gold);
+      width: 1.8rem;
+      flex-shrink: 0;
+      line-height: 1;
+    }
+
+    .acronym-dash {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.85rem;
+      color: var(--mid);
+      flex-shrink: 0;
+    }
+
+    .acronym-word {
+      font-family: 'DM Mono', monospace;
+      font-size: 1rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #a09880;
+    }
+
+    .header-right {
+      background: var(--cream);
+      padding: 6rem 4rem 4rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+    }
+
+    .header-right .tagline {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.4rem, 3vw, 2rem);
+      font-weight: 400;
+      font-style: italic;
+      line-height: 1.4;
+      color: var(--teal);
+      margin-bottom: 2rem;
+    }
+
+    .header-right .intro-text {
+      font-size: 1.05rem;
+      color: var(--mid);
+      max-width: 42ch;
+    }
+
+    .virtual-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: 'DM Mono', monospace;
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--paper);
+      background: var(--teal);
+      padding: 0.4rem 1rem;
+      margin-top: 2.5rem;
+      width: fit-content;
+    }
+
+    .virtual-badge::before {
+      content: '◉';
+      color: #6fd6a0;
+      font-size: 0.6rem;
+    }
+
+    /* ── SECTION COMMON ── */
+    section {
+      padding: 5rem 4rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .section-label {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.68rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1.2rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .section-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--accent);
+      opacity: 0.35;
+    }
+
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 1.8rem;
+      color: var(--ink);
+    }
+
+    .section-title span {
+      color: var(--teal);
+    }
+
+    /* ── ABOUT SECTION ── */
+    #about {
+      background: var(--ink);
+      max-width: 100%;
+      padding: 5rem 0;
+    }
+
+    #about .inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 4rem;
+      display: grid;
+      grid-template-columns: 1fr 1.6fr;
+      gap: 5rem;
+      align-items: start;
+    }
+
+    #about .section-label { color: var(--gold); }
+    #about .section-label::after { background: var(--gold); }
+    #about .section-title { color: var(--paper); }
+    #about .section-title span { color: var(--gold); }
+
+    #about p {
+      color: #b8b0a0;
+      font-size: 1.05rem;
+      margin-bottom: 1.2rem;
+    }
+
+    #about p strong {
+      color: var(--paper);
+      font-weight: 500;
+    }
+
+    /* ── RESEARCH THEMES ── */
+    #themes {
+      background: var(--cream);
+      max-width: 100%;
+      padding: 5rem 0;
+    }
+
+    #themes .inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 4rem;
+    }
+
+    .themes-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0;
+      margin-top: 3rem;
+      border: 1px solid var(--ink);
+    }
+
+    .theme-card {
+      padding: 2.5rem 2rem;
+      border-right: 1px solid var(--ink);
+      position: relative;
+      transition: background 0.25s ease;
+    }
+
+    .theme-card:last-child { border-right: none; }
+
+    .theme-card:hover { background: var(--ink); }
+    .theme-card:hover .theme-title,
+    .theme-card:hover .theme-desc { color: var(--paper); }
+    .theme-card:hover .theme-num { color: var(--accent); }
+
+    .theme-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 3.5rem;
+      font-weight: 700;
+      color: var(--cream);
+      line-height: 1;
+      margin-bottom: 1rem;
+      transition: color 0.25s;
+    }
+
+    .theme-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-bottom: 0.8rem;
+      transition: color 0.25s;
+    }
+
+    .theme-desc {
+      font-size: 0.9rem;
+      color: var(--mid);
+      line-height: 1.6;
+      transition: color 0.25s;
+    }
+
+    /* ── WHO WE SEEK ── */
+    #join {
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
+
+    .join-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      margin-top: 3rem;
+    }
+
+    .join-card {
+      border: 1px solid var(--ink);
+      padding: 2.5rem;
+      position: relative;
+    }
+
+    .join-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 4px;
+      height: 100%;
+    }
+
+    .join-card.undergrad::before { background: var(--teal); }
+    .join-card.grad::before { background: var(--accent); }
+
+    .join-level {
+      font-family: 'DM Mono', monospace;
+      font-size: 1.1rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+
+    .join-card.undergrad .join-level { color: var(--teal); }
+    .join-card.grad .join-level { color: var(--accent); }
+
+    .join-card h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .join-card ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .join-card ul li {
+      font-size: 0.92rem;
+      color: var(--mid);
+      padding: 0.4rem 0;
+      border-bottom: 1px solid var(--cream);
+      display: flex;
+      align-items: flex-start;
+      gap: 0.7rem;
+    }
+
+    .join-card ul li::before {
+      content: '→';
+      font-family: 'DM Mono', monospace;
+      flex-shrink: 0;
+      margin-top: 0.05rem;
+    }
+
+    .join-card.undergrad ul li::before { color: var(--teal); }
+    .join-card.grad ul li::before { color: var(--accent); }
+
+    /* ── CTA ── */
+    #cta {
+      background: var(--teal);
+      max-width: 100%;
+      padding: 5rem 0;
+    }
+
+    #cta .inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 4rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 3rem;
+    }
+
+    #cta .cta-text {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.6rem, 3vw, 2.4rem);
+      font-weight: 700;
+      font-style: italic;
+      color: var(--paper);
+      max-width: 45ch;
+      line-height: 1.3;
+    }
+
+    .cta-email {
+      font-family: 'DM Mono', monospace;
+      font-size: 1.15rem;
+      color: #6fd6a0;
+      margin-top: 1rem;
+      letter-spacing: 0.03em;
+    }
+
+    .cta-btn {
+      display: inline-block;
+      background: var(--paper);
+      color: var(--teal);
+      font-family: 'DM Mono', monospace;
+      font-size: 0.8rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 1.1rem 2.5rem;
+      flex-shrink: 0;
+      transition: background 0.2s, color 0.2s;
+      cursor: pointer;
+    }
+
+    .cta-btn:hover {
+      background: var(--ink);
+      color: var(--paper);
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      padding: 2rem 4rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid var(--cream);
+    }
+
+    footer .f-name {
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      font-style: italic;
+      font-size: 1.1rem;
+      color: var(--ink);
+    }
+
+    footer .f-sub {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.65rem;
+      color: var(--mid);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-top: 0.2rem;
+    }
+
+    footer .f-right {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.68rem;
+      color: var(--mid);
+      text-align: right;
+    }
+
+    /* ── ANIMATIONS ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .header-left > *, .header-right > * { animation: fadeUp 0.7s ease both; }
+    .header-left .lab-tag            { animation-delay: 0.1s; }
+    .header-left .lab-name           { animation-delay: 0.25s; }
+    .header-left .lab-acronym        { animation-delay: 0.35s; }
+    .header-right .tagline           { animation-delay: 0.45s; }
+    .header-right .intro-text        { animation-delay: 0.55s; }
+    .header-right .virtual-badge     { animation-delay: 0.65s; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 820px) {
+      header { grid-template-columns: 1fr; }
+      .header-left::after { display: none; }
+      .themes-grid { grid-template-columns: 1fr; }
+      .theme-card { border-right: none; border-bottom: 1px solid var(--ink); }
+      .join-grid { grid-template-columns: 1fr; }
+      #about .inner { grid-template-columns: 1fr; gap: 2rem; }
+      #cta .inner { flex-direction: column; }
+      section, #about .inner, #themes .inner, #cta .inner, footer { padding-left: 2rem; padding-right: 2rem; }
+    }
   </style>
 </head>
 <body>
-<p class="p1"><span class="s1">EDUCATIONAL PSYCHOLOGY · ARTIFICIAL INTELLIGENCE</span></p>
-<h1 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 40.0px 'Helvetica Neue'; color: #f5f3ef; -webkit-text-stroke: #f5f3ef"><span class="s2">LEAP</span><span class="s1"> Lab</span></h1>
-<p class="p3"><span class="s1">L</span></p>
-<p class="p4"><span class="s1">—</span></p>
-<p class="p5"><span class="s1">LEARNING</span></p>
-<p class="p3"><span class="s1">E</span></p>
-<p class="p4"><span class="s1">—</span></p>
-<p class="p5"><span class="s1">EDUCATION</span></p>
-<p class="p3"><span class="s1">A</span></p>
-<p class="p4"><span class="s1">—</span></p>
-<p class="p5"><span class="s1">ARTIFICIAL INTELLIGENCE</span></p>
-<p class="p3"><span class="s1">P</span></p>
-<p class="p4"><span class="s1">—</span></p>
-<p class="p5"><span class="s1">PSYCHOLOGY</span></p>
-<p class="p6"><span class="s3">Where the science of learning</span><span class="s4"><br>
-</span><span class="s3">meets the age of intelligent machines.</span></p>
-<p class="p7"><span class="s3">Led by Dr. Mei Jiang and Dr. Shifang Tang, LEAP Lab is a research lab at the intersection of educational psychology and artificial intelligence — studying how people learn with, from, and alongside AI systems, and how we can design those systems to truly serve human flourishing.</span></p>
-<p class="p8"><span class="s4">FULLY VIRTUAL LAB</span></p>
-<p class="p9"><span class="s1">ABOUT THE LAB</span></p>
-<h2 style="margin: 0.0px 0.0px 21.6px 0.0px; font: 28.0px 'Helvetica Neue'; color: #f5f3ef; -webkit-text-stroke: #f5f3ef"><span class="s1">Why </span><span class="s2">LEAP</span><span class="s1">?</span></h2>
-<p class="p11"><span class="s1">AI is reshaping classrooms, tutoring systems, and the very way students construct knowledge. Yet the psychological science of </span><span class="s5">how people actually learn with AI</span><span class="s1"> is still in its infancy. LEAP Lab exists to close that gap.</span></p>
-<p class="p11"><span class="s1">We draw on </span><span class="s5">cognitive science, motivation theory, and learning analytics</span><span class="s1"> to ask rigorous questions: Does AI feedback build self-regulation or erode it? How does human-AI collaboration change metacognition? What makes AI tutors equitable — or not?</span></p>
-<p class="p11"><span class="s1">LEAP Lab is co-directed by </span><span class="s5">Dr. Mei Jiang</span><span class="s1"> and </span><span class="s5">Dr. Shifang Tang</span><span class="s1">, both faculty in Educational Psychology. As a </span><span class="s5">fully virtual lab</span><span class="s1">, we believe geography should never be a barrier to great science. Our team collaborates asynchronously and synchronously across time zones, bringing together diverse perspectives and lived experiences into every research question we pursue.</span></p>
-<p class="p12"><span class="s3">RESEARCH FOCUS</span></p>
-<h2 style="margin: 0.0px 0.0px 21.6px 0.0px; font: 28.0px 'Helvetica Neue'; color: #212f3f; -webkit-text-stroke: #212f3f"><span class="s3">Research Questions </span><span class="s6">You May Explore</span></h2>
-<p class="p14"><span class="s3">01</span></p>
-<h3 style="margin: 0.0px 0.0px 9.6px 0.0px; font: 13.8px 'Helvetica Neue'; color: #212f3f; -webkit-text-stroke: #212f3f"><span class="s3">Human–AI Learning Dynamics</span></h3>
-<p class="p16"><span class="s3">How do learners adapt their cognitive strategies when working with AI tutors, writing assistants, and generative tools?</span></p>
-<p class="p14"><span class="s3">02</span></p>
-<h3 style="margin: 0.0px 0.0px 9.6px 0.0px; font: 13.8px 'Helvetica Neue'; color: #212f3f; -webkit-text-stroke: #212f3f"><span class="s3">Motivation &amp; Engagement</span></h3>
-<p class="p16"><span class="s3">Does AI increase students' intrinsic motivation — or undermine the productive struggle that builds deep learning?</span></p>
-<p class="p14"><span class="s3">03</span></p>
-<h3 style="margin: 0.0px 0.0px 9.6px 0.0px; font: 13.8px 'Helvetica Neue'; color: #212f3f; -webkit-text-stroke: #212f3f"><span class="s3">Equity &amp; Ethical Design</span></h3>
-<p class="p16"><span class="s3">How do students and educators navigate trust, accountability, and fairness when using AI?</span></p>
-<p class="p12"><span class="s4">JOIN THE LAB</span></p>
-<h2 style="margin: 0.0px 0.0px 21.6px 0.0px; font: 28.0px 'Helvetica Neue'; color: #266b66; -webkit-text-stroke: #266b66"><span class="s7">We're </span><span class="s4">Recruiting</span></h2>
-<p class="p7"><span class="s4">We welcome students who are curious, rigorous, and excited about working at an unusual disciplinary frontier. You don't need to arrive with all the answers — just a genuine drive to ask better questions. No prior experience with research is necessary.</span></p>
-<h3 style="margin: 0.0px 0.0px 12.0px 0.0px; font: 16.8px 'Helvetica Neue'; color: #212f3f; -webkit-text-stroke: #212f3f"><span class="s4">Two Ways to Join the Lab</span></h3>
-<p class="p19"><span class="s4">OPTION 1 — INDEPENDENT RESEARCHER</span></p>
-<ul class="ul1">
-  <li class="li20"><span class="s8"></span><span class="s4">Conduct your own study as a thesis, dissertation, or independent project</span><span class="s9"> </span><span class="s4">Develop a research question, design your study, and see it through to completion</span><span class="s9"> </span><span class="s4">Receive faculty mentorship at every stage of the research process</span><span class="s9"> </span><span class="s4">Open to both undergraduate and graduate students</span></li>
-</ul>
-<p class="p19"><span class="s4">OPTION 2 — RESEARCH ASSISTANT</span></p>
-<ul class="ul1">
-  <li class="li20"><span class="s8"></span><span class="s4">Choose to volunteer in the lab or enroll in PSY 411, 412, or 413 (Research Apprenticeship) with instructor permission for course credit</span><span class="s9"> </span><span class="s4">Assist with all phases of empirical research — literature review, study design, data collection, coding, and analysis</span><span class="s9"> </span><span class="s4">Co-author reports and conference presentations</span></li>
-</ul>
-<p class="p21"><span class="s4">All lab members receive systematic research training through hands-on participation in empirical studies — from hypothesis to findings.</span></p>
-<p class="p22"><span class="s10">Interested? Contact us directly or click Apply to Join to fill out our interest form.</span></p>
-<p class="p23"><span class="s10">→ Dr. Mei Jiang: <a href="mailto:mei.jiang@etamu.edu"><span class="s11">mei.jiang@etamu.edu</span></a></span></p>
-<p class="p23"><span class="s10">→ Dr. Shifang Tang: <a href="mailto:shifang.tang@etamu.edu"><span class="s11">shifang.tang@etamu.edu</span></a></span></p>
-<a class="cta-btn" href="https://forms.gle/yStURMUKK7xkb8sh9">Apply to Join</a>
-<p class="p25"><span class="s4">LEAP Lab</span></p>
-<p class="p26"><span class="s4">LEARNING, EDUCATION &amp; AI PSYCHOLOGY · VIRTUAL LABORATORY</span></p>
+
+<!-- ══════════ HEADER ══════════ -->
+<header>
+  <div class="header-left">
+    <div>
+      <p class="lab-tag">Educational Psychology · Artificial Intelligence</p>
+      <h1 class="lab-name">
+        <em>LEAP</em> Lab
+      </h1>
+      <div class="lab-acronym">
+        <div class="acronym-row">
+          <span class="acronym-letter">L</span>
+          <span class="acronym-dash">—</span>
+          <span class="acronym-word">Learning</span>
+        </div>
+        <div class="acronym-row">
+          <span class="acronym-letter">E</span>
+          <span class="acronym-dash">—</span>
+          <span class="acronym-word">Education</span>
+        </div>
+        <div class="acronym-row">
+          <span class="acronym-letter">A</span>
+          <span class="acronym-dash">—</span>
+          <span class="acronym-word">Artificial Intelligence</span>
+        </div>
+        <div class="acronym-row">
+          <span class="acronym-letter">P</span>
+          <span class="acronym-dash">—</span>
+          <span class="acronym-word">Psychology</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="header-right">
+    <p class="tagline">Where the science of learning<br>meets the age of intelligent machines.</p>
+    <p class="intro-text">
+      Led by <strong>Dr. Mei Jiang</strong> and <strong>Dr. Shifang Tang</strong>, LEAP Lab is a research lab at the intersection of educational psychology and artificial intelligence — studying how people learn <em>with</em>, <em>from</em>, and <em>alongside</em> AI systems, and how we can design those systems to truly serve human flourishing.
+    </p>
+    <span class="virtual-badge">Fully Virtual Lab</span>
+  </div>
+</header>
+
+
+<!-- ══════════ ABOUT ══════════ -->
+<div id="about">
+  <div class="inner">
+    <div>
+      <p class="section-label">About the Lab</p>
+      <h2 class="section-title">Why <span>LEAP</span>?</h2>
+    </div>
+    <div>
+      <p>
+        AI is reshaping classrooms, tutoring systems, and the very way students construct knowledge. Yet the psychological science of <strong>how people actually learn with AI</strong> is still in its infancy. LEAP Lab exists to close that gap.
+      </p>
+      <p>
+        We draw on <strong>cognitive science, motivation theory, and learning analytics</strong> to ask rigorous questions: Does AI feedback build self-regulation or erode it? How does human-AI collaboration change metacognition? What makes AI tutors equitable — or not?
+      </p>
+      <p>
+        LEAP Lab is co-directed by <strong>Dr. Mei Jiang</strong> and <strong>Dr. Shifang Tang</strong>, both faculty in Educational Psychology. As a <strong>fully virtual lab</strong>, we believe geography should never be a barrier to great science. Our team collaborates asynchronously and synchronously across time zones, bringing together diverse perspectives and lived experiences into every research question we pursue.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- ══════════ RESEARCH THEMES ══════════ -->
+<div id="themes">
+  <div class="inner">
+    <p class="section-label">Research Focus</p>
+    <h2 class="section-title">Research Questions <span>You May Explore</span></h2>
+    <div class="themes-grid">
+      <div class="theme-card">
+        <div class="theme-num">01</div>
+        <h3 class="theme-title">Human–AI Learning Dynamics</h3>
+        <p class="theme-desc">How do learners adapt their cognitive strategies when working with AI tutors, writing assistants, and generative tools?</p>
+      </div>
+      <div class="theme-card">
+        <div class="theme-num">02</div>
+        <h3 class="theme-title">Motivation &amp; Engagement</h3>
+        <p class="theme-desc">Does AI increase students' intrinsic motivation — or undermine the productive struggle that builds deep learning?</p>
+      </div>
+      <div class="theme-card">
+        <div class="theme-num">03</div>
+        <h3 class="theme-title">Equity &amp; Ethical Design</h3>
+        <p class="theme-desc">How do students and educators navigate trust, accountability, and fairness when using AI?</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ══════════ JOIN ══════════ -->
+<section id="join">
+  <p class="section-label">Join the Lab</p>
+  <h2 class="section-title">We're <span>Recruiting</span></h2>
+  <p style="max-width: 60ch; color: var(--mid); font-size: 1.05rem;">
+    We welcome students who are curious, rigorous, and excited about working at an unusual disciplinary frontier. You don't need to arrive with all the answers — just a genuine drive to ask better questions. No prior experience with research is necessary.
+  </p>
+
+  <div class="join-grid" style="grid-template-columns: 1fr;">
+    <div class="join-card undergrad">
+      <h3>Two Ways to Join the Lab</h3>
+
+      <p style="font-size:0.95rem; color:var(--teal); font-family:'DM Mono',monospace; letter-spacing:0.08em; text-transform:uppercase; margin-bottom:1rem;">Option 1 — Independent Researcher</p>
+      <ul style="margin-bottom:1.8rem;">
+        <li>Conduct your own study as a thesis, dissertation, or independent project</li>
+        <li>Develop a research question, design your study, and see it through to completion</li>
+        <li>Receive faculty mentorship at every stage of the research process</li>
+        <li>Open to both undergraduate and graduate students</li>
+      </ul>
+
+      <p style="font-size:0.95rem; color:var(--teal); font-family:'DM Mono',monospace; letter-spacing:0.08em; text-transform:uppercase; margin-bottom:1rem;">Option 2 — Research Assistant</p>
+      <ul style="margin-bottom:1.8rem;">
+        <li>Choose to volunteer in the lab or enroll in PSY 411, 412, or 413 (Research Apprenticeship) with instructor permission for course credit</li>
+        <li>Assist with all phases of empirical research — literature review, study design, data collection, coding, and analysis</li>
+        <li>Co-author reports and conference presentations</li>
+      </ul>
+
+      <p style="font-size:0.95rem; color:var(--ink); background:var(--cream); padding:0.9rem 1rem; border-left:3px solid var(--teal);">All lab members receive <strong>systematic research training</strong> through hands-on participation in empirical studies — from hypothesis to findings.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════ CTA ══════════ -->
+<div id="cta">
+  <div class="inner">
+    <div>
+
+      <p style="font-family:'DM Mono',monospace; font-size:0.9rem; color:#a0c8b8; margin-bottom:1.2rem; letter-spacing:0.03em;">Interested? Contact us directly or click <em>Apply to Join</em> to fill out our interest form.</p>
+      <p class="cta-email">→ Dr. Mei Jiang: <a href="mailto:mei.jiang@etamu.edu" style="color:#6fd6a0;">mei.jiang@etamu.edu</a></p>
+      <p class="cta-email">→ Dr. Shifang Tang: <a href="mailto:shifang.tang@etamu.edu" style="color:#6fd6a0;">shifang.tang@etamu.edu</a></p>
+    </div>
+    <a class="cta-btn" href="https://forms.gle/ce7ESNwHurgnShxe6" target="_blank">Apply to Join</a>
+  </div>
+</div>
+
+
+<!-- ══════════ FOOTER ══════════ -->
+<footer>
+  <div>
+    <div class="f-name">LEAP Lab</div>
+    <div class="f-sub">Learning, Education &amp; AI Psychology · Virtual Laboratory</div>
+  </div>
+</footer>
+
 </body>
 </html>
